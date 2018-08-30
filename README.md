@@ -1,6 +1,8 @@
 # FaceRecognition
 Contains code for Face Recognition Project
 
+Note : This repo does not contain implementation for the web interface
+
 ## Objective
 The project aims to create a smart system capable of autonomously detecting and recognizing faces. 
 
