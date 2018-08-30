@@ -21,6 +21,13 @@ The steps for this project are summarized as :
 6. Calculate LBP value for each pixel and create LBP histogram for all images of a label (LBP values are features of an image object)
 7. The recognizer is now able to predict label for face in a new image
 8. After the prediction is obtained in a variable, using haarcascade and opencv a rectangle is drawn on the region of image that contains a face
+9. All the faces recognized are written to data.txt file which is used to update the portal
+
+
+The idea is that we can use a camera located near the entrance of the class which can be used for marking attendance rather than using the traditional roll call method
+
+## Snapshots
+
 
 ## Dependencies  
 OS, Numpy, Pillow, OpenCV, Tkinter and Flask.
