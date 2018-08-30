@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flask Website</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.min.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+    <style>
+        table{
+            margin-left: 60px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;    
+        }
+        .nirbhay{
+            margin-top: 10px;
+            margin-left: 20px;;
+            font-size: 16px;
+        }
+
+        .sir_pic{
+            margin-left: 30px;
+        }
+
+        .logo{
+            margin-left: 350px;;
+        }
+
+        .form_sub{
+            margin-top: 20px;
+            margin-left: 350px;;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <p class="nirbhay">Welcome Mr. Nirbhay Kashyap</p>
+        <img class="sir_pic" src="../static/nkashyap.JPG" height="42" width="42" align="left"/>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+            <img class= "logo" src="../static/download.jpg" height="100" width="100">
+
+
+            <script type="text/javascript" src="data.js"></script>
+
+            <br><br><br><br><hr>
+            <form method="post" action="#">
+                <table style="width:80%">
+                  <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Enroll No</th>
+                    <th>Course Type</th>
+                    <th colspan="2">Attendance</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td> <img src="../static/shashank.jpg" height="30" width="30"> Shashank</td>
+                    <td>A2305213383</td>
+                    <td>Full-Time</td>
+                    <td>
+                        <fieldset id="group1">
+                             <input type="radio" value="present" name="group1">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group1">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                   <tr>
+                    <td>2</td>
+                    <td> <img src="../static/shivanshu.jpg" height="30" width="30"> Shivanshu</td>
+                    <td>A2305213396</td>
+                    <td>Full-Time</td>
+                    <td>
+                        <fieldset id="group2">
+                             <input type="radio" value="present" name="group2">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group2">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>3</td>
+                    <td> <img src="../static/devin.jpg" height="30" width="30"> Devin</td>
+                    <td>A2305213386</td>
+                    <td>Full-Time</td>
+                    <td>
+                        <fieldset id="group3">
+                             <input type="radio" value="present" name="group3">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group3">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>4</td>
+                    <td> <img src="../static/raghav.jpg" height="30" width="30"> Raghav</td>
+                    <td>A2305213382</td>
+                    <td>Full-Time</td>
+                    <td>
+                        <fieldset id="group4">
+                             <input type="radio" value="present" name="group4">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group4">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>5</td>
+                    <td> <img src="../static/anshul.jpg" height="30" width="30"> Anshul</td>
+                    <td>A2305213369</td>
+                    <td>Full-Time</td>
+                   <td>
+                        <fieldset id="group5">
+                             <input type="radio" value="present" name="group5">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group5">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>6</td>
+                    <td> <img src="../static/abhilash.jpg" height="30" width="30"> Abhilash</td>
+                    <td>A2305213391</td>
+                    <td>Full-Time</td>
+                    <td>
+                        <fieldset id="group6">
+                             <input type="radio" value="present" name="group6">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group6">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>7</td>
+                    <td> <img src="../static/aman.jpg" height="30" width="30"> Aman</td>
+                    <td>A2305213395</td>
+                    <td>Full-Time</td>
+                    <td>
+                        <fieldset id="group7">
+                             <input type="radio" value="present" name="group7">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group7">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>8</td>
+                    <td> <img src="../static/shivam.jpg" height="30" width="30"> Shivam</td>
+                    <td>A2305213511</td>
+                    <td>Full-Time</td>
+                   <td>
+                        <fieldset id="group8">
+                             <input type="radio" value="present" name="group8">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group8">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>9</td>
+                    <td> <img src="../static/kartikeya.jpg" height="30" width="30"> Kartikeya</td>
+                    <td>A2305213426</td>
+                    <td>Full-Time</td>
+                   <td>
+                        <fieldset id="group9">
+                             <input type="radio" value="present" name="group9">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group9">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>10</td>
+                    <td> <img src="../static/sarthak.jpg" height="30" width="30"> Sarthak</td>
+                    <td>A2305213397</td>
+                    <td>Full-Time</td>
+                    <td>
+                        <fieldset id="group10">
+                             <input type="radio" value="present" name="group10">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group10">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>11</td>
+                    <td> <img src="../static/yash.jpg" height="30" width="30"> Yash</td>
+                    <td>A2305213394</td>
+                    <td>Full-Time</td>
+                   <td>
+                        <fieldset id="group11">
+                             <input type="radio" value="present" name="group11">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group11">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                    <tr>
+                    <td>12</td>
+                    <td> <img src="../static/shrey.jpg" height="30" width="30"> Shrey</td>
+                    <td>A2305213384</td>
+                    <td>Full-Time</td>
+                   <td>
+                        <fieldset id="group12">
+                             <input type="radio" value="present" name="group12">  Present&nbsp;&nbsp;&nbsp;
+                             <input type="radio" value="" name="group12">  Absent
+                        </fieldset>
+                    </td>
+                  </tr>
+
+                </table>
+                <button class="form_sub " type="submit" value="Submit">Submit</button
+            </form>
+        </div>
+         <div class="col-md-2" id="output">
+
+        </div>
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+
+</body>
+</html>
