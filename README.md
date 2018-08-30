@@ -18,7 +18,7 @@ The steps for this project are summarized as :
 3. Detect face in image using Haarcascade
 4. Create image array from these faces and create corresponding label array
 5. Send image array and label array as parameters to face recognizer object (LBPH - local binary patterns histogram)
-<img src="https://github.com/devinupreti/FaceRecognition/blob/master/Images_Report/LBP.png" alt="alt text" width="100" height="100">
+<img src="https://github.com/devinupreti/FaceRecognition/blob/master/Images_Report/LBP.png" alt="alt text" width="500" height="500">
 ![alt text](https://github.com/devinupreti/FaceRecognition/blob/master/Images_Report/LBP.png)
 6. Calculate LBP value for each pixel and create LBP histogram for all images of a label (LBP values are features of an image object)
 7. The recognizer is now able to predict label for face in a new image
