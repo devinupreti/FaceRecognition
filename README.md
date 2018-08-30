@@ -33,7 +33,8 @@ The steps for this project are summarized as :
 The idea is that we can use a camera located near the entrance of the class which can be used for marking attendance rather than using the traditional roll call method
 
 ## Snapshots
-![alt text]()
+![alt text](https://github.com/devinupreti/FaceRecognition/blob/master/Images_Report/Ex2.png)
+![alt text](https://github.com/devinupreti/FaceRecognition/blob/master/Images_Report/Ex1.png)
 
 
 ## Dependencies  
