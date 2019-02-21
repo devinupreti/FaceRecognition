@@ -7,7 +7,7 @@ Note : This repo does not contain implementation for the web interface
 The project aims to create a smart system capable of autonomously detecting and recognizing faces. 
 
 ## Dataset
-The dataset was created by clicking pictures from a mobile camera and resizing them to a standard resolution of 200x266 pixels. The dataset contain images of 12 people (Original 30 sample students). Each person has approximately 10 images.
+The dataset was created by clicking pictures from a mobile camera and resizing them to a standard resolution of 200x266 pixels. The dataset contain images of 12 people (originally 30 sample students). Each person has approximately 10 images.
 
 ## Introduction
 This project is a facial recognition program in python that recognizes a face on giving an image as an input. A face recognizer object has been utilized in the project. For facial recognition it requires training the face recognizer object with images of the face of the person that is expected to recognize. Supervised learning is used to train the face recognizer object.  
